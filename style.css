@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    background-color: var(--secondary);
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* html{
+
+} */
+
+
+
+/* CSS Variables */
+
+:root {
+    --primary: #DE6B1C;
+    --secondary: #000;
+    --text: #e7e7e7;
+    --white: #fff;
+}
+
+
+
+/* Utility Classes */
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.gap-1 {
+    gap: 10px;
+}
+
+.gap-2 {
+    gap: 20px;
+}
+
+.gap-3 {
+    gap: 30px;
+}
+
+.mt-1 {
+    margin-top: 20px;
+}
+
+.mt-2 {
+    margin-top: 40px;
+}
+
+.mb-1 {
+    margin-bottom: 20px;
+}
+
+.mb-2 {
+    margin-bottom: 40px;
+}
+
+.ml-1 {
+    margin-left: 20px;
+}
+
+.sec-padd {
+    padding: 100px;
+}
+
+
+
+
+/* HOME PAGE CSS */
+
+
+/* Navbar */
+
+.logo {
+    width: 10rem;
+}
+
+.menu ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: var(--primary);
+    transition: 400ms;
+}
+
+.nav-btns ul li {
+    list-style-type: none;
+}
+
+.btn-1 {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 50px;
+    background-color: var(--secondary);
+    transition: 500ms;
+}
+
+
+.btn-1-icon {
+    padding: 5px;
+    margin-left: 8px;
+    color: var(--secondary);
+    background-color: var(--white);
+    border-radius: 50px;
+}
+
+.btn-1-icon:hover {
+    margin-left: 8px;
+    padding: 5px;
+    color: var(--primary);
+    border-radius: 50px;
+    background-color: var(--white);
+    transition: 300ms;
+}
+
+.btn-2 {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    color: var(--primary);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid var(--white);
+    border-radius: 50px;
+    color: var(--white);
+    background-color: transparent;
+    transition: 500ms;
+}
+
+
+/* Hero Section  */
+
+.hero-sec {
+    background-image: url(./assets/home/hero-image.webp);
+    /* opacity: 0.5; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+
+}
+
+.hero-content {
+    width: 50%;
+    background-color: transparent;
+}
+
+.main-heading {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    background-color: transparent;
+}
+
+.heading-special {
+    color: var(--primary);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    background-color: transparent;
+}
+
+.hero-sec-para {
+    background-color: transparent;
+}
+
+
+/* Welcome Section  */
+
+.heading {
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    background-color: none;
+}
+
+.welcome-sec-items {
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: var(--white);
+}

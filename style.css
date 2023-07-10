@@ -243,3 +243,20 @@
 
 
 /* Category Section  */
+
+
+.items {
+    width: 200px;
+}
+
+#categ-items .items img {
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+#categ-items .items img:hover {
+    opacity: 1;
+    transition: 800ms;
+}

@@ -152,9 +152,9 @@
 .btn-1-icon:hover {
     margin-left: 8px;
     padding: 5px;
-    color: var(--primary);
+    color: var(--white);
     border-radius: 50px;
-    background-color: var(--white);
+    background-color: var(--primary);
     transition: 300ms;
 }
 
@@ -179,8 +179,8 @@
 
 /* Hero Section  */
 
-.hero-sec {
-    background-image: url(./assets/home/hero-image.webp);
+#hero-sec {
+    background-image: url(./assets/home/hero-banner1.jpg);
     /* opacity: 0.5; */
     background-repeat: no-repeat;
     background-position: center center;
@@ -190,7 +190,7 @@
 
 }
 
-.hero-content {
+#hero-content {
     width: 50%;
     background-color: transparent;
 }
@@ -199,11 +199,12 @@
     color: var(--white);
     font-size: 3rem;
     font-weight: 600;
+    text-shadow: 2px 2px 8px #000;
     line-height: 3.5rem;
     background-color: transparent;
 }
 
-.heading-special {
+.sp-heading {
     color: var(--primary);
     font-size: 3rem;
     font-weight: 600;
@@ -211,7 +212,8 @@
     background-color: transparent;
 }
 
-.hero-sec-para {
+#hero-sec-para {
+    text-shadow: 2px 2px 8px #000;
     background-color: transparent;
 }
 
@@ -229,6 +231,15 @@
 .welcome-sec-items {
     padding: 30px;
     width: 250px;
-    border-radius: 5px;
-    background-color: var(--white);
+    border: 2px solid var(--white);
+    border-radius: 20px;
+    /* background-color: transparent; */
 }
+
+.welcome-sec-items:hover {
+    border-radius: 0px;
+    transition: 800ms;
+}
+
+
+/* Category Section  */

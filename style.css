@@ -20,6 +20,7 @@
 :root {
     --primary: #DE6B1C;
     --secondary: #000;
+    --gray: #0f0f0f;
     --text: #e7e7e7;
     --white: #fff;
 }
@@ -95,6 +96,16 @@
 
 .sec-padd {
     padding: 100px;
+}
+
+.bg-color-gray {
+    background-color: var(--gray);
+}
+
+.sub-heading {
+    color: var(--primary);
+    font-weight: 400;
+    letter-spacing: 0.6rem;
 }
 
 
@@ -259,4 +270,16 @@
 #categ-items .items img:hover {
     opacity: 1;
     transition: 800ms;
+}
+
+#dis-sec-img {
+    width: 50%;
+}
+
+#dis-sec-img img {
+    width: 100%;
+}
+
+#dis-sec-cont {
+    width: 50%;
 }

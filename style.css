@@ -2,16 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--white);
+}
+
+body {
     background-color: var(--secondary);
+    color: var(--white);
     font-family: poppins;
     font-weight: 300;
     font-size: 1rem;
 }
-
-/* html{
-
-} */
 
 
 
@@ -23,6 +22,7 @@
     --gray: #0f0f0f;
     --text: #e7e7e7;
     --white: #fff;
+    --accent: #b6b6b6;
 }
 
 
@@ -98,12 +98,17 @@
     margin-left: 20px;
 }
 
+.mtb-1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .sec-padd {
     padding: 100px;
 }
 
 .mtb {
-    margin: 100px  0px  100px  0px;
+    margin: 100px 0px 100px 0px;
 }
 
 .sec-height {
@@ -118,7 +123,7 @@
     color: var(--white);
     font-size: 2.5rem;
     font-weight: 500;
-    line-height: 2.5rem;
+    line-height: 3rem;
     background-color: transparent;
 }
 
@@ -126,6 +131,12 @@
     color: var(--primary);
     font-weight: 400;
     letter-spacing: 0.35rem;
+    background-color: transparent;
+}
+
+.sub-heading-1 {
+    color: var(--primary);
+    font-weight: 400;
     background-color: transparent;
 }
 
@@ -141,10 +152,15 @@
     background-color: transparent;
 }
 
+.sub-para {
+    font-size: 0.7rem;
+}
 
 
 
 /* HOME PAGE CSS */
+/* <!-- --------------------------------------------------------------------------------------------------------------------------- --> */
+
 
 
 /* Navbar */
@@ -155,7 +171,13 @@
 
 .menu ul li {
     list-style-type: none;
+    color: var(--white);
+    text-decoration: none;
     cursor: pointer;
+}
+
+.menu ul li i {
+    color: var(--white);
 }
 
 .menu ul li:hover {
@@ -203,7 +225,7 @@
 }
 
 .btn-2 {
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     border: 2px solid var(--primary);
     border-radius: 50px;
     color: var(--primary);
@@ -212,7 +234,7 @@
 }
 
 .btn-2:hover {
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     border: 2px solid var(--white);
     border-radius: 50px;
     color: var(--white);
@@ -305,3 +327,69 @@
 #dis-sec-cont {
     height: 80vh;
 }
+
+.deals .deals-items .items img {
+    width: 330px;
+    height: 225px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.deals .deals-items {
+    flex-wrap: wrap;
+}
+
+#social-feed-sec #social-feed-items .items img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: var(--gray);
+    padding: 100px 100px 10px 100px;
+}
+
+.footer-text {
+    color: var(--accent);
+}
+
+.footer .footer-menu {
+    list-style-type: none;
+}
+
+.footer .footer-menu li {
+    margin-top: 10px;
+    color: var(--accent);
+}
+
+.footer .p-4 .footer-icons {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: var(--primary);
+}
+
+.footer .p-1 {
+    width: 40%;
+    padding-right: 50px;
+}
+
+.footer .p-2 {
+    width: 20%;
+}
+
+.footer .p-3 {
+    width: 20%;
+}
+
+.footer .p-4 {
+    width: 20%;
+}
+
+
+/* ABOUT PAGE CSS */
+/* <!-- --------------------------------------------------------------------------------------------------------------------------- --> */
+
+

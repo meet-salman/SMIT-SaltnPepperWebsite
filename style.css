@@ -202,7 +202,7 @@ body {
     width: 10rem;
 }
 
-.menu ul li {
+.menu ul a, li {
     list-style-type: none;
     color: var(--white);
     text-decoration: none;
@@ -211,6 +211,11 @@ body {
 
 .menu ul li i {
     color: var(--white);
+}
+
+.menu ul li i:hover {
+    color: var(--primary);
+    transition: 500ms;
 }
 
 .menu ul li:hover {

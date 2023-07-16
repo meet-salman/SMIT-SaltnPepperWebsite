@@ -86,12 +86,20 @@ body {
     margin-top: 40px;
 }
 
+.mt-3 {
+    margin-top: 60px;
+}
+
 .mb-1 {
     margin-bottom: 20px;
 }
 
 .mb-2 {
     margin-bottom: 40px;
+}
+
+.mb-3 {
+    margin-bottom: 60px;
 }
 
 .ml-1 {
@@ -127,6 +135,14 @@ body {
     background-color: transparent;
 }
 
+.heading-1 {
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    background-color: transparent;
+}
+
 .sub-heading {
     color: var(--primary);
     font-weight: 400;
@@ -143,6 +159,14 @@ body {
 .sp-heading {
     color: var(--primary);
     font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    background-color: transparent;
+}
+
+.sp-heading-1 {
+    color: var(--primary);
+    font-size: 2.5rem;
     font-weight: 600;
     line-height: 3.5rem;
     background-color: transparent;
@@ -313,6 +337,7 @@ body {
     transition: 800ms;
 }
 
+/* Discover Section  */
 
 #dis-sec-img {
     height: 80vh;
@@ -328,6 +353,8 @@ body {
     height: 80vh;
 }
 
+/* Deals Section  */
+
 .deals .deals-items .items img {
     width: 330px;
     height: 225px;
@@ -340,11 +367,15 @@ body {
     flex-wrap: wrap;
 }
 
+/* Social Feed Section  */
+
 #social-feed-sec #social-feed-items .items img {
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
+
+/* Footer Section  */
 
 .footer {
     background-color: var(--gray);
@@ -392,4 +423,23 @@ body {
 /* ABOUT PAGE CSS */
 /* <!-- --------------------------------------------------------------------------------------------------------------------------- --> */
 
+
+#restaurant-sec{
+    padding: 0px    100px   100px   100px;
+}
+
+#restaurant-sec #restaurant-sec-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+}
+
+#restaurant-sec-content-1{
+    padding-right: 50px;
+}
+
+#restaurant-sec-content-2{
+    padding-left: 50px;
+}
 

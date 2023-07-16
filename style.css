@@ -495,3 +495,16 @@ body {
     width: 100%;
     border-radius: 5px;
 }
+
+/* FRANCHISE PAGE CSS */
+/* <!-- --------------------------------------------------------------------------------------------------------------------------- --> */
+
+.franchise-form input{
+    padding: 13px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.franchise-form .prt-1, .prt-2{
+    width: 50%;
+}

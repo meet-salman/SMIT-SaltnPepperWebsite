@@ -466,3 +466,22 @@ body {
     scale: 1.1;
     transition: 500ms;
 }
+
+
+/* FEEDBACK PAGE CSS */
+/* <!-- --------------------------------------------------------------------------------------------------------------------------- --> */
+
+
+.rating .star{
+    color: var(--accent);
+    font-size: 1.4rem;
+}
+
+.rating .star:hover{
+    color: var(--primary);
+}
+
+.rating-form input{
+    padding: 10px;
+    width: 100%;
+}
